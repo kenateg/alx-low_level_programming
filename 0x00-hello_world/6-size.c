@@ -1,4 +1,9 @@
 #include <stdio.h>
+/**
+ * main - xtra
+ * Description: hope it works
+ * Return: worls
+ */
 int main(void)
 {int a;
 long int b;

@@ -1,7 +1,9 @@
 #include <stdio.h>
-/** main - displays output 
+/*
+ * function_main - displays output 
  * Description: describes the function below
- */
+*/
 int main(void) 
-{puts("\"Programming is like building a multilingual puzzle");
+{/* argc is implicitly of type int */
+puts("\"Programming is like building a multilingual puzzle");
 return (0); }

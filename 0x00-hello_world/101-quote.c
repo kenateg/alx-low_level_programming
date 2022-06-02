@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include<unistd.h>
 /**
  * main - writes out the values
  * Description: avails the tru values out.

@@ -4,6 +4,8 @@
  *
  * My first c command
  */
+int puts(const char *str)
+
 int main(void){
 
 	char str[250];

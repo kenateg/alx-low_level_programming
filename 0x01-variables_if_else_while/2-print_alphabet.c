@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-
+#include<unistd.h>
 /**
  * main - Entry point
  *
@@ -10,11 +10,8 @@
 
 int main(void)
 {
-	char low;
-
-	for (low = 'a'; low <= 'z'; low++)
-		putchar(low);
-		putchar("\n");
-	
+	char lw;
+	for (lw = 'a'; lw <= 'z'; lw++)
+	{ putchar(lw); }
 	return (0);
 }

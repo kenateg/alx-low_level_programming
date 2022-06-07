@@ -2,17 +2,18 @@
 /**
  * _islower - is a function that checks if the output is character s capibatl
  *
+ * c: value entered 
  * Return: gives 1 or zero
  */
 int _islower(int c)
 {
 	char i;
-	int lower = 1;
-	
-	for (i = 'A'; i <= 'Z'; i++)
+	int lower = 0;
+
+	for (i = 'a'; i <= 'z'; i++)
 	{
 		if (i == c)
-			lower = 0;
+			lower = 1;
 	}
 	return (lower);
 }

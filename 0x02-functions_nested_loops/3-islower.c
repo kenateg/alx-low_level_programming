@@ -1,8 +1,7 @@
 #include "main.h"
 /**
  * _islower - is a function that checks if the output is character s capibatl
- *
- * c: value entered 
+ * @c: An input character
  * Return: gives 1 or zero
  */
 int _islower(int c)

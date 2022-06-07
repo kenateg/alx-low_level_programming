@@ -1,8 +1,11 @@
+#include <unistd.h>
 #include "main.h"
+
 /**
  * main - function prints out the value _putchar
  * Return: will return the value zero
  */
+
 int main(void)
 {
 	char character[8]  = "_putchar";
